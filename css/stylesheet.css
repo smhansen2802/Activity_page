@@ -1,3 +1,80 @@
-header{
-    background-image: url(../images/Skate_Hopp.jpg)
+
+body{
+    font-family: Helvetica,Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color:#000000;
+    color:#fff;
+
 }
+
+header {
+    background-image: url(/media/pexels-jaymantri-2894.jpg); /* https://www.pexels.com/nb-no/bilde/dagslys-idrett-mennesker-park-2894/*/
+    height: 800px;
+    background-attachment: fixed;
+    background-size: cover;
+    /*background-repeat: no-repeat;
+    background-position: center center;*/
+}
+h1{
+    font-family: Impact, Arial, sans-serif;
+    font-weight: bold;
+    font-size: 20vw;
+    color: black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+h2{
+    font-family: Helvetica,Arial, sans-serif;
+    font-size: 5vw;
+    font-weight: bold;
+    align-items: center;
+}
+h3{
+    font-family: Helvetica, Arial, sans-serif;
+}
+main{
+    /*display: flex;
+    flex-direction: column;
+    gap: 10px;*/
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+
+article{
+  display: flex;
+    gap: 20px;
+    margin-bottom: 40px;
+    flex-wrap: wrap; /*makes sure it's responsive*/
+    align-items: flex-start;
+}
+
+article p {
+    flex: 1 1 50%; /* text takes half the width*/
+    margin: 0;
+    line-height: 1.6;
+
+}
+
+article h2{
+    flex: 1 1 100%;
+    font-size: 1.8em;
+    margin: 0 0 10px;
+}
+
+article h3 {
+    flex: 1 1 100%;
+    font-size: 1rem;
+    font-weight: normal;
+    margin: 0 0 20px;
+}
+
+article img{
+    flex: 1 1 50%; /*image takes half the width*/
+    max-width: 100%;
+    height: auto;
+}
+
